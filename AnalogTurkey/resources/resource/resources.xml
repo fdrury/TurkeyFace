@@ -1,0 +1,13 @@
+<resources>
+    <properties>
+    	<property id="disableSeconds" type="boolean">false</property>
+    </properties>
+    
+    <bitmap id="turkeyicon" filename="images/turkey.png"/>
+    
+    <settings>
+    	<setting propertyKey="@Properties.disableSeconds" title="@Strings.TitleSeconds">
+    		<settingConfig type="boolean" />
+    	</setting>
+    </settings>
+</resources>
